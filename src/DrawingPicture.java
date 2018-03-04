@@ -23,7 +23,7 @@ public class DrawingPicture {
     public double v = 0.0;
     public void draw(double point){
         GridPane gridPane = new GridPane();
-        gridPane.setPrefSize(400,400);
+        gridPane.setPrefSize(405,400);
         gridPane.setLayoutX(350);
         gridPane.setLayoutY(0);
         Button color = new Button("Цвет");
